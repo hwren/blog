@@ -2,6 +2,9 @@
     margin: 0;
     padding : 0;
 }
+body{
+    background-color: #F0F0F0;
+}
 .content{
     padding: 60px 0;
 }
@@ -12,12 +15,10 @@
     background: #F2F2F2;
     -webkit-box-shadow: 0 1px 10px #A8B1B9;
     -moz-box-shadow: 0 1px 10px #A8B1B9;
-    box-shadow: 0 1px 10px #58B1B9;
-    text-shadow: 0 1px 1px white;
-    color:#2f2f2f;
+    box-shadow: 0 1px 10px #55BBAA;
 }
 .art_inner{
     padding: 20px;
     border: 1px #f2f2f3 solid;
-    background-color: white;
+    background-color: #F6F6F6;
 }
