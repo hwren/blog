@@ -10,11 +10,16 @@ title: Hwren's Blog
                 <a href="{{ post.url }}">{{ post.title }}</a>
             </h2>
             <div class="art_info">
+                {{ post.date | date_to_string}}
             </div>
             <div class="art_summary">
                 {{ post.excerpt }}
+                <p><a href="{{ post.url }}">更多...</a></p>
             </div>
             <div class="art_foot">
+            {% for tag in post.tags%}
+                <span>{{ tag }}</span>
+            {% endfor %}
             </div>
         </div>
     </div>
