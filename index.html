@@ -3,17 +3,19 @@ layout: default
 title: Hwren's Blog
 ---
 {% for post in site.posts %}
-<div class="article span10 offset2">
-    <div class="art_inner">
-        <h2 class="art_title">
-            <a href="{{ post.url }}">{{ post.title }}</a>
-        </h2>
-        <div class="art_info">
-        </div>
-        <div class="art_summary">
-            {{ post.content | strip_html | truncatewords: 50}}
-        </div>
-        <div class="art_foot">
+<div class="row-fluid">
+    <div class="article span10 offset2">
+        <div class="art_inner">
+            <h2 class="art_title">
+                <a href="{{ post.url }}">{{ post.title }}</a>
+            </h2>
+            <div class="art_info">
+            </div>
+            <div class="art_summary">
+                {{ post.content | strip_html | truncatewords: 50}}
+            </div>
+            <div class="art_foot">
+            </div>
         </div>
     </div>
 </div>
