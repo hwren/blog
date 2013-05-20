@@ -2,7 +2,7 @@
     margin: 0;
     padding : 0;
 }
-body{
+#container{
     background-color: #F0F0F0;
 }
 .content{
