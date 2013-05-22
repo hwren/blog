@@ -5,6 +5,12 @@
 body{
     background-color: #F0F0F0;
 }
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
 .content{
     padding: 60px 0;
 }
@@ -21,4 +27,27 @@ body{
     padding: 20px;
     border: 1px #f2f2f3 solid;
     background-color: #F6F6F6;
+}
+.art_title {
+    margin:0;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 0 1px 1px  rgba(0,0,0, 0.3);
+}
+.sep{
+    height: 1px;
+    width: 100%;
+    border-top: 1px solid #ECECEC;
+    border-bottom: 1px solid #ECECEC;
+}
+.art_info{
+    font-style: italic;
+    color: grey;
+    padding: 10px;
+}
+.art_summary{
+    margin: 10px 0;
+}
+.tag{
+    font-style: italic;
 }
