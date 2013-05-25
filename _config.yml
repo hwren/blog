@@ -1,1 +1,3 @@
 baseurl: /blog
+tags:
+  template: _layouts/tags
